@@ -110,7 +110,6 @@ def is_valid(word):
 
 
 def play(word):
-    word = 'ABOBA'
     word_completion = '_' * len(word)  # строка, содержащая символы _ на каждую букву задуманного слова
     guessed = False  # сигнальная метка
     guessed_letters = []  # список уже названных букв
